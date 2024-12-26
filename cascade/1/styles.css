@@ -1,0 +1,20 @@
+/* Demonstrate how conflicting rules are resolved by the browser
+   Outcome :=> The <p> tag will have the color of 
+   Why :=> Because
+*/
+
+body {
+  background-color: #313030;
+}
+
+h1 {
+  color: #e0e0e0;
+}
+
+p {
+  color: white;
+}
+
+p {
+  color: gray;
+}
