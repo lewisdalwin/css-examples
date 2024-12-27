@@ -12,9 +12,16 @@ h1 {
 }
 
 p {
-  color: green;
+  color: blue;
+  background-color: lightgray;
 }
 
-.start {
-  color: pink;
+.mango {
+  color: green;
+  background-color: lightyellow;
+}
+
+#oatmeal {
+  color: red;
+  background-color: lightpink;
 }
